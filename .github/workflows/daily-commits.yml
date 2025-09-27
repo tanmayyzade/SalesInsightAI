@@ -2,15 +2,14 @@ name: Daily Professional Commits
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs at 00:00 UTC daily
-  workflow_dispatch:     # Allows manual trigger
+    - cron: '0 0 * * *' # every day at 00:00 UTC
+  workflow_dispatch:
 
 jobs:
   daily-commit:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Set up Git
@@ -18,12 +17,12 @@ jobs:
           git config user.name "Tanmay Zade"
           git config user.email "tanmayzade2002@gmail.com"
 
-      - name: Make a daily commit
+      - name: Make daily commit
         run: |
-          DATE=$(date +"%Y-%m-%d")
-          echo "Daily update on $DATE" >> daily-log.txt
+          DATE=$(date +'%Y-%m-%d')
+          echo "Contribution on $DATE" >> daily-log.txt
           git add daily-log.txt
           git commit -m "Contribution on $DATE" || echo "No changes to commit"
-          git push https://github.com/tanmayyzade/SalesInsightAI.git HEAD:main
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
