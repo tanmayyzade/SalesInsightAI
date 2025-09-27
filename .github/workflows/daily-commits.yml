@@ -1,0 +1,60 @@
+name: Daily professional commits
+
+on:
+  schedule:
+    - cron: '30 13 * * *'  # runs daily at 19:00 IST
+  workflow_dispatch: {}  # allows manual run for testing
+
+jobs:
+  daily-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Make a small, plausible change
+        id: change
+        run: |
+          FILES=("README.md" "src/data_processing.py" "src/visualization.py" "src/main.py" "CHANGELOG.md")
+          FILE=${FILES[$((RANDOM % ${#FILES[@]}))]}
+          mkdir -p "$(dirname "$FILE")"
+          if [ ! -f "$FILE" ]; then echo "# Placeholder" > "$FILE"; fi
+          MESSAGES=(
+            "Improve README example"
+            "Small doc update"
+            "Refactor comment for clarity"
+            "Fix typo in code comment"
+            "Update sample data note"
+            "Improve example usage"
+            "Add test note"
+            "Refactor small function comment"
+            "Update changelog - minor"
+          )
+          MSG="${MESSAGES[$((RANDOM % ${#MESSAGES[@]}))]}"
+          echo "# Update: $MSG ($(date -u +'%Y-%m-%d %H:%M:%S UTC'))" >> "$FILE"
+          echo "msg=$MSG" >> "$GITHUB_OUTPUT"
+
+      - name: Configure Git author
+        run: |
+          git config user.name "Tanmay Zade"
+          git config user.email "tanmayzade2002@gmail.com"
+
+      - name: Commit changes
+        run: |
+          git add -A
+          git commit -m "${{ steps.change.outputs.msg }}" || echo "No changes to commit"
+
+      - name: Push with PAT
+        env:
+          PAT: ${{ secrets.PERSONAL_TOKEN }}
+        run: |
+          REPO_URL="https://x-access-token:${PAT}@github.com/${{ github.repository }}.git"
+          git remote set-url origin "$REPO_URL"
+          git push origin HEAD:main
+
+      - name: Finished
+        run: echo "Daily commit attempt finished"
