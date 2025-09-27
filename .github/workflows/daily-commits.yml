@@ -3,21 +3,17 @@ name: Daily professional commits
 on:
   schedule:
     - cron: '0 9 * * *' # Every day at 9:00 UTC
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch:
 
 jobs:
   daily-commit:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Update files and commit
+      - name: Update README and Python file
         run: |
           FILE="README.md"
           DATE=$(date '+%Y-%m-%d')
@@ -35,8 +31,15 @@ jobs:
             echo "# Minor refactor at $DATE" >> $PY_FILE
           fi
 
+      - name: Commit changes
+        run: |
           git config user.name "Tanmay Zade"
           git config user.email "tanmayzade2002@gmail.com"
           git add .
           git commit -m "Refactored code & updated README for $DATE" || echo "No changes to commit"
-          git push
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
