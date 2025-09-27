@@ -2,28 +2,41 @@ name: Daily professional commits
 
 on:
   schedule:
-    - cron: '0 9 * * *' # every day at 9:00 UTC
-  workflow_dispatch: # manual trigger
+    - cron: '0 9 * * *' # Every day at 9:00 UTC
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   daily-commit:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
 
-      - name: Update README and commit
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Update files and commit
         run: |
           FILE="README.md"
           DATE=$(date '+%Y-%m-%d')
 
+          # Update README
           if grep -q "Last updated:" $FILE; then
             sed -i "s/Last updated:.*/Last updated: $DATE/" $FILE
           else
             echo -e "\n## Daily Contributions\nLast updated: $DATE" >> $FILE
           fi
 
+          # Optional: minor change to Python file to simulate work
+          PY_FILE="src/sample.py"
+          if [ -f $PY_FILE ]; then
+            echo "# Minor refactor at $DATE" >> $PY_FILE
+          fi
+
           git config user.name "Tanmay Zade"
           git config user.email "tanmayzade2002@gmail.com"
-          git add $FILE
-          git commit -m "Daily update: $DATE" || echo "No changes to commit"
+          git add .
+          git commit -m "Refactored code & updated README for $DATE" || echo "No changes to commit"
           git push
