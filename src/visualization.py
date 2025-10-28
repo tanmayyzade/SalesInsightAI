@@ -275,3 +275,4 @@
 # Update: Update changelog - minor (2025-10-20 13:46:49 UTC)
 # Update: Refactor comment for clarity (2025-10-22 13:50:39 UTC)
 # Update: Improve README example (2025-10-24 13:47:15 UTC)
+# Update: Small doc update (2025-10-28 13:47:50 UTC)
