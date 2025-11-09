@@ -252,3 +252,4 @@
 # Update: Improve example usage (2025-10-25 13:39:33 UTC)
 # Update: Improve example usage (2025-11-02 13:39:37 UTC)
 # Update: Update changelog - minor (2025-11-03 13:47:23 UTC)
+# Update: Improve example usage (2025-11-09 13:40:41 UTC)
