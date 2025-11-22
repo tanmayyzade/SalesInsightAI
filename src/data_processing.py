@@ -262,3 +262,4 @@
 # Update: Refactor comment for clarity (2025-11-19 13:49:20 UTC)
 # Update: Update changelog - minor (2025-11-20 13:46:12 UTC)
 # Update: Update sample data note (2025-11-21 13:45:13 UTC)
+# Update: Improve README example (2025-11-22 13:40:02 UTC)
