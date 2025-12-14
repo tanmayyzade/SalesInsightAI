@@ -15,3 +15,4 @@
 # Update: Update changelog - minor (2025-11-27 13:49:31 UTC)
 # Update: Fix typo in code comment (2025-12-08 13:52:12 UTC)
 # Update: Improve README example (2025-12-11 13:56:03 UTC)
+# Update: Add test note (2025-12-14 13:43:56 UTC)
