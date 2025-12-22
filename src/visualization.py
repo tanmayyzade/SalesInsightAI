@@ -285,3 +285,4 @@
 # Update: Update sample data note (2025-12-04 13:53:50 UTC)
 # Update: Refactor comment for clarity (2025-12-15 13:57:05 UTC)
 # Update: Small doc update (2025-12-16 13:55:03 UTC)
+# Update: Improve README example (2025-12-22 13:51:59 UTC)
