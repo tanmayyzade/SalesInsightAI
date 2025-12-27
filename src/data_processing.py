@@ -270,3 +270,4 @@
 # Update: Update changelog - minor (2025-12-10 13:55:21 UTC)
 # Update: Add test note (2025-12-19 13:50:26 UTC)
 # Update: Refactor small function comment (2025-12-25 13:49:18 UTC)
+# Update: Improve README example (2025-12-27 13:45:14 UTC)
