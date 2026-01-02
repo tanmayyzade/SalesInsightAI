@@ -1200,3 +1200,4 @@ Contribution: 2024-12-31 05:31
 # Update: Add test note (2025-12-20 13:43:38 UTC)
 # Update: Small doc update (2025-12-23 13:53:12 UTC)
 # Update: Improve example usage (2025-12-31 13:49:54 UTC)
+# Update: Refactor comment for clarity (2026-01-02 13:49:56 UTC)
