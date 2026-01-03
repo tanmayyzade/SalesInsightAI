@@ -288,3 +288,4 @@
 # Update: Improve README example (2025-12-22 13:51:59 UTC)
 # Update: Fix typo in code comment (2025-12-28 13:46:54 UTC)
 # Update: Small doc update (2025-12-29 13:54:03 UTC)
+# Update: Small doc update (2026-01-03 13:45:51 UTC)
