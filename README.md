@@ -1202,3 +1202,4 @@ Contribution: 2024-12-31 05:31
 # Update: Improve example usage (2025-12-31 13:49:54 UTC)
 # Update: Refactor comment for clarity (2026-01-02 13:49:56 UTC)
 # Update: Update changelog - minor (2026-01-07 13:56:16 UTC)
+# Update: Improve example usage (2026-01-11 13:47:49 UTC)
