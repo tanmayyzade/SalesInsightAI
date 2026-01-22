@@ -273,3 +273,4 @@
 # Update: Improve README example (2025-12-27 13:45:14 UTC)
 # Update: Fix typo in code comment (2026-01-09 13:54:55 UTC)
 # Update: Update changelog - minor (2026-01-19 13:59:27 UTC)
+# Update: Refactor comment for clarity (2026-01-22 14:01:20 UTC)
