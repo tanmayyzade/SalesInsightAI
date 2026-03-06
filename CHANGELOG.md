@@ -30,3 +30,4 @@
 # Update: Improve example usage (2026-02-22 13:58:42 UTC)
 # Update: Fix typo in code comment (2026-02-27 14:09:13 UTC)
 # Update: Small doc update (2026-03-04 14:08:27 UTC)
+# Update: Add test note (2026-03-06 14:06:31 UTC)
