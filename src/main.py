@@ -282,3 +282,4 @@
 # Update: Improve README example (2026-03-01 13:55:27 UTC)
 # Update: Add test note (2026-03-02 14:12:40 UTC)
 # Update: Fix typo in code comment (2026-03-07 13:55:00 UTC)
+# Update: Refactor comment for clarity (2026-03-16 14:44:42 UTC)
