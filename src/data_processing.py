@@ -287,3 +287,4 @@
 # Update: Improve README example (2026-03-11 14:27:03 UTC)
 # Update: Fix typo in code comment (2026-03-12 14:26:44 UTC)
 # Update: Refactor small function comment (2026-03-14 14:00:26 UTC)
+# Update: Small doc update (2026-03-22 13:59:03 UTC)
