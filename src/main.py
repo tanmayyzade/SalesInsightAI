@@ -285,3 +285,4 @@
 # Update: Refactor comment for clarity (2026-03-16 14:44:42 UTC)
 # Update: Update changelog - minor (2026-03-17 14:38:56 UTC)
 # Update: Fix typo in code comment (2026-03-18 14:47:11 UTC)
+# Update: Improve example usage (2026-03-29 14:04:55 UTC)
