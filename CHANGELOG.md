@@ -34,3 +34,4 @@
 # Update: Update sample data note (2026-03-21 13:57:59 UTC)
 # Update: Improve example usage (2026-03-24 14:41:09 UTC)
 # Update: Refactor small function comment (2026-03-28 14:03:29 UTC)
+# Update: Improve README example (2026-04-02 14:38:52 UTC)
