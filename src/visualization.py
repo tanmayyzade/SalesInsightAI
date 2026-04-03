@@ -307,3 +307,4 @@
 # Update: Improve README example (2026-03-20 14:12:01 UTC)
 # Update: Update changelog - minor (2026-03-23 14:37:07 UTC)
 # Update: Add test note (2026-03-25 14:42:06 UTC)
+# Update: Refactor comment for clarity (2026-04-03 14:12:20 UTC)
