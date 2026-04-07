@@ -287,3 +287,4 @@
 # Update: Fix typo in code comment (2026-03-18 14:47:11 UTC)
 # Update: Improve example usage (2026-03-29 14:04:55 UTC)
 # Update: Small doc update (2026-03-31 14:46:40 UTC)
+# Update: Update changelog - minor (2026-04-07 14:52:18 UTC)
