@@ -291,3 +291,4 @@
 # Update: Fix typo in code comment (2026-04-01 14:49:39 UTC)
 # Update: Add test note (2026-04-06 14:30:24 UTC)
 # Update: Fix typo in code comment (2026-04-09 15:06:38 UTC)
+# Update: Refactor comment for clarity (2026-04-11 14:06:29 UTC)
