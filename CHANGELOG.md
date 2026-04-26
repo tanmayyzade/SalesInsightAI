@@ -38,3 +38,4 @@
 # Update: Refactor comment for clarity (2026-04-12 14:08:47 UTC)
 # Update: Improve README example (2026-04-13 15:01:17 UTC)
 # Update: Update sample data note (2026-04-24 14:53:06 UTC)
+# Update: Small doc update (2026-04-26 14:22:51 UTC)
