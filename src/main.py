@@ -290,3 +290,4 @@
 # Update: Update changelog - minor (2026-04-07 14:52:18 UTC)
 # Update: Improve example usage (2026-04-21 14:56:27 UTC)
 # Update: Update sample data note (2026-04-22 14:57:08 UTC)
+# Update: Refactor comment for clarity (2026-05-10 14:35:49 UTC)
