@@ -1223,3 +1223,4 @@ Contribution: 2024-12-31 05:31
 # Update: Refactor comment for clarity (2026-04-28 15:57:17 UTC)
 # Update: Fix typo in code comment (2026-05-06 15:40:43 UTC)
 # Update: Small doc update (2026-05-22 16:00:54 UTC)
+# Update: Improve example usage (2026-05-29 16:56:11 UTC)
