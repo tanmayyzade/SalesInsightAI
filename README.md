@@ -1229,3 +1229,4 @@ Contribution: 2024-12-31 05:31
 # Update: Add test note (2026-06-08 16:55:41 UTC)
 # Update: Small doc update (2026-06-10 16:46:29 UTC)
 # Update: Small doc update (2026-06-15 18:08:07 UTC)
+# Update: Improve README example (2026-06-27 15:01:24 UTC)
