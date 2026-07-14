@@ -304,3 +304,4 @@
 # Update: Improve README example (2026-06-24 15:41:51 UTC)
 # Update: Fix typo in code comment (2026-07-04 14:49:18 UTC)
 # Update: Fix typo in code comment (2026-07-07 16:01:49 UTC)
+# Update: Small doc update (2026-07-14 15:07:53 UTC)
