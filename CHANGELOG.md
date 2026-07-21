@@ -54,3 +54,4 @@
 # Update: Update changelog - minor (2026-07-11 14:34:56 UTC)
 # Update: Small doc update (2026-07-18 14:34:16 UTC)
 # Update: Update sample data note (2026-07-19 14:38:17 UTC)
+# Update: Refactor comment for clarity (2026-07-21 15:21:48 UTC)
