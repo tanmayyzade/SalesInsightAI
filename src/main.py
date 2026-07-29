@@ -308,3 +308,4 @@
 # Update: Add test note (2026-07-15 15:07:22 UTC)
 # Update: Refactor comment for clarity (2026-07-16 15:16:51 UTC)
 # Update: Refactor comment for clarity (2026-07-20 15:28:15 UTC)
+# Update: Improve README example (2026-07-29 15:34:57 UTC)
