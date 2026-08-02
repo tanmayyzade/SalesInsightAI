@@ -317,3 +317,4 @@
 # Update: Improve example usage (2026-07-22 15:19:28 UTC)
 # Update: Update changelog - minor (2026-07-26 14:48:10 UTC)
 # Update: Improve example usage (2026-07-27 15:58:17 UTC)
+# Update: Small doc update (2026-08-02 14:47:12 UTC)
