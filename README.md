@@ -1234,3 +1234,4 @@ Contribution: 2024-12-31 05:31
 # Update: Improve README example (2026-07-03 15:33:28 UTC)
 # Update: Add test note (2026-07-10 15:55:22 UTC)
 # Update: Refactor comment for clarity (2026-07-13 16:03:51 UTC)
+# Update: Small doc update (2026-08-03 16:02:10 UTC)
