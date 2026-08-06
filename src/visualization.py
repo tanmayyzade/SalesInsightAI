@@ -338,3 +338,4 @@
 # Update: Refactor small function comment (2026-07-28 15:41:55 UTC)
 # Update: Improve example usage (2026-07-30 15:31:28 UTC)
 # Update: Fix typo in code comment (2026-08-01 14:44:47 UTC)
+# Update: Improve README example (2026-08-06 15:42:22 UTC)
