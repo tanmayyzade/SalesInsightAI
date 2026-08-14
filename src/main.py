@@ -312,3 +312,4 @@
 # Update: Refactor comment for clarity (2026-08-05 15:38:13 UTC)
 # Update: Small doc update (2026-08-07 14:32:06 UTC)
 # Update: Refactor comment for clarity (2026-08-12 14:35:56 UTC)
+# Update: Improve README example (2026-08-14 14:30:40 UTC)
