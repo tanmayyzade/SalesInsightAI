@@ -65,3 +65,4 @@
 # Update: Update changelog - minor (2026-09-02 17:14:50 UTC)
 # Update: Refactor small function comment (2026-09-10 17:05:02 UTC)
 # Update: Add test note (2026-09-16 17:40:56 UTC)
+# Update: Improve example usage (2026-09-22 17:41:54 UTC)
