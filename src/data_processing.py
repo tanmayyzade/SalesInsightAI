@@ -328,3 +328,4 @@
 # Update: Small doc update (2026-09-13 17:01:11 UTC)
 # Update: Update changelog - minor (2026-09-17 17:42:03 UTC)
 # Update: Improve README example (2026-09-18 17:08:47 UTC)
+# Update: Improve example usage (2026-09-23 17:54:32 UTC)
