@@ -325,3 +325,4 @@
 # Update: Improve example usage (2026-09-08 17:21:07 UTC)
 # Update: Update changelog - minor (2026-09-11 17:05:19 UTC)
 # Update: Update changelog - minor (2026-09-15 17:43:27 UTC)
+# Update: Add test note (2026-09-24 17:54:18 UTC)
