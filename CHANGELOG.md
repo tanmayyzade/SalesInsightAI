@@ -70,3 +70,4 @@
 # Update: Improve example usage (2026-09-28 20:11:22 UTC)
 # Update: Update changelog - minor (2026-10-07 19:27:13 UTC)
 # Update: Add test note (2026-10-09 18:55:20 UTC)
+# Update: Refactor comment for clarity (2026-10-12 21:48:54 UTC)
