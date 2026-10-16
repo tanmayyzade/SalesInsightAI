@@ -72,3 +72,4 @@
 # Update: Add test note (2026-10-09 18:55:20 UTC)
 # Update: Refactor comment for clarity (2026-10-12 21:48:54 UTC)
 # Update: Refactor comment for clarity (2026-10-13 19:55:35 UTC)
+# Update: Improve README example (2026-10-16 17:37:13 UTC)
