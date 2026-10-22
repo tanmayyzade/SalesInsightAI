@@ -1244,3 +1244,4 @@ Contribution: 2024-12-31 05:31
 # Update: Improve README example (2026-09-30 18:30:51 UTC)
 # Update: Small doc update (2026-10-10 17:56:23 UTC)
 # Update: Add test note (2026-10-18 16:43:42 UTC)
+# Update: Improve example usage (2026-10-22 18:06:30 UTC)
