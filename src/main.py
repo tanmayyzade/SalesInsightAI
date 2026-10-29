@@ -332,3 +332,4 @@
 # Update: Update changelog - minor (2026-10-03 17:31:07 UTC)
 # Update: Improve example usage (2026-10-20 18:03:51 UTC)
 # Update: Improve README example (2026-10-26 19:29:20 UTC)
+# Update: Improve README example (2026-10-29 19:06:55 UTC)
