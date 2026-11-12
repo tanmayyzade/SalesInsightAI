@@ -355,3 +355,4 @@
 # Update: Add test note (2026-10-17 16:35:01 UTC)
 # Update: Improve README example (2026-11-04 20:29:35 UTC)
 # Update: Fix typo in code comment (2026-11-11 20:17:20 UTC)
+# Update: Improve example usage (2026-11-12 21:00:00 UTC)
