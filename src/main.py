@@ -334,3 +334,4 @@
 # Update: Improve README example (2026-10-26 19:29:20 UTC)
 # Update: Improve README example (2026-10-29 19:06:55 UTC)
 # Update: Add test note (2026-10-31 17:51:45 UTC)
+# Update: Refactor comment for clarity (2026-11-13 20:35:51 UTC)
