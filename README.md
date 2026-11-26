@@ -1254,3 +1254,4 @@ Contribution: 2024-12-31 05:31
 # Update: Add test note (2026-11-16 22:58:41 UTC)
 # Update: Add test note (2026-11-18 21:30:30 UTC)
 # Update: Refactor comment for clarity (2026-11-24 01:07:16 UTC)
+# Update: Improve README example (2026-11-26 22:29:58 UTC)
