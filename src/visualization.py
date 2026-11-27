@@ -361,3 +361,4 @@
 # Update: Refactor small function comment (2026-11-22 20:26:12 UTC)
 # Update: Update sample data note (2026-11-24 23:12:00 UTC)
 # Update: Fix typo in code comment (2026-11-25 22:39:57 UTC)
+# Update: Improve example usage (2026-11-27 22:14:01 UTC)
